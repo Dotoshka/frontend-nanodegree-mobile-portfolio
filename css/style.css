@@ -1,4 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/open-sans-v18-latin-regular.woff2') format('woff2'),
+       url('../fonts/open-sans-v18-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/open-sans-v18-latin-700.woff2') format('woff2'),
+       url('../fonts/open-sans-v18-latin-700.woff') format('woff');
+}
 
 html {
   font-size: 100%;
